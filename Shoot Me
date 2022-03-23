@@ -18,7 +18,7 @@ def runGame():
         #게임 화면을 검은색으로 채우고 화면을 업데이트 함
         gamepad.fill(BLACK)
         pygame.display.update()
-        dlock.tick(60)
+        clock.tick(60)
 
     pygame.quit()
 
